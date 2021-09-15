@@ -1,0 +1,45 @@
+Respository Name:FirstRepo
+Respository URL:https://github.com/nikhilamateti2708/FirstRepo.git
+
+token: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
+
+URI:https://github.com/nikhilamateti2708/Repo1.git
+
+>$ git config --global user.name "nikhilamateti2708"
+
+>g$ git config --global user.email "nanikki2000@gmail.com"
+
+$ git init //initializes the empty git repository
+
+>$ ls // will show the files in the myGit folder
+
+>$ git status // gives the status of the repo whether it is in unstaged or commited or not
+
+>$ git add First.txt
+
+>$ git add . // comimits all the files in the .git folder
+
+//commited to the local repo
+>$ git commit -m "message"
+
+//adding a remote repository or generating a path how to push the data to the remote repo 
+
+>$  git remote add origin "https://github.com/nikhilamateti2708/testlocalrepo.git"
+
+//push the files to the remote repo
+>$ git push origin master
+
+//gives the log in chronological order
+>$ git log
+
+//reverts the file from staged to unstaged
+>$ git restore --staged file_name
+
+if we commited the file using commit 
+then inorder to revert it
+
+>$ git revert hashcode(we can hashcode of the commit from >$ git log)
+getting out from the the editor page click esc & click shift+: and type wq and click enter
+
+//pulls the files added files in central repo
+>git pull origin master
